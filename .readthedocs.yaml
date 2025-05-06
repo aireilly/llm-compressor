@@ -9,7 +9,7 @@ build:
     python: "3.12"
   jobs:
     pre_build:
-      - make copy-examples
+      - make -C docs copy-examples
 
 sphinx:
   configuration: docs/source/conf.py
