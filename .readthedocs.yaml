@@ -8,17 +8,15 @@ build:
   tools:
     python: "3.12"
   jobs:
-    build:
-      - make html
+    pre_build:
+      - make copy-examples
 
 sphinx:
   configuration: docs/source/conf.py
   fail_on_warning: false
 
-# If using Sphinx, optionally build your docs in additional formats such as PDF
 formats: []
 
-# Optionally declare the Python requirements required to build your docs
 python:
   install:
     - requirements: docs/requirements.txt
