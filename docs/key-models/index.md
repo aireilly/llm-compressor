@@ -1,3 +1,16 @@
+---
+id: index
+lastUpdated: 2026-07-24
+owner: cajeon@redhat.com
+title: Key Models
+type: key-models
+tags:
+  - key-models
+  - quantization
+  - model-index
+  - llm-compressor
+  - examples
+---
 # Key Models
 
 The following models are among the most commonly used with LLM Compressor: Llama 4, Qwen3.5, Qwen3.6, Kimi-K2, and Mistral Large 3. Each model page contains quantization examples with tested configurations and recommended parameters.

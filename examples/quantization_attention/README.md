@@ -1,3 +1,17 @@
+---
+id: readme
+lastUpdated: 2026-04-02
+owner: kylesayrs@gmail.com
+title: 'Attention Quantization in LLM Compressor #'
+type: quantization_attention
+description: Learn how to apply static per-head FP8 attention quantization to a model with LLM Compressor's QuantizationModifier, which also implicitly quantizes the kv cache.
+tags:
+  - quantization
+  - attention
+  - fp8
+  - kv-cache
+  - llm-compressor
+---
 # Attention Quantization in LLM Compressor #
 LLM Compressor supports applying static attention quantization to models
 

@@ -1,3 +1,20 @@
+---
+id: readme
+lastUpdated: 2026-06-09
+owner: rshaw@neuralmagic.com
+title: '`int4` Weight Quantization'
+type: quantization_w4a16
+description: Learn how to quantize model weights to int4 (W4A16, group size 128) with GPTQ using llm-compressor for memory savings and vLLM inference acceleration.
+tags:
+  - quantization
+  - int4
+  - w4a16
+  - gptq
+  - vllm
+  - llm-compressor
+  - calibration
+  - weight-quantization
+---
 # `int4` Weight Quantization
 
 `llm-compressor` supports quantizing weights to `int4` for memory savings and inference acceleration with `vLLM`

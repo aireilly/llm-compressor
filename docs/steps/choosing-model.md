@@ -1,3 +1,17 @@
+---
+id: choosing-model
+lastUpdated: 2026-02-24
+owner: dipikasikka1@gmail.com
+title: Select a Model
+type: steps
+tags:
+  - model-selection
+  - huggingface
+  - architectures
+  - moe
+  - vision-language
+  - compression-workflow
+---
 # Select a Model
 
 The first step in the compression workflow is selecting a compatible model. LLM Compressor supports a wide range of architectures including decoder-only language models (such as Llama3), multi-modal vision-language models (such as Qwen3 VL), and Mixture-of-Experts (MoE) models (such as Llama4, Kimi-K2, and Qwen3 VL MoE variants).

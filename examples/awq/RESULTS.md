@@ -1,3 +1,18 @@
+---
+id: results
+lastUpdated: 2026-03-17
+owner: 76727507+rtj1@users.noreply.github.com
+title: AWQ + FP8 Quantization Results
+type: awq
+description: Learn how to evaluate or compare AWQ combined with FP8 quantization schemes (FP8_DYNAMIC vs FP8_BLOCK) or reproduce GSM8K benchmark results for Meta-Llama-3-8B-Instruct.
+tags:
+  - awq
+  - fp8
+  - quantization
+  - gsm8k
+  - benchmark
+  - llama
+---
 # AWQ + FP8 Quantization Results
 
 **Model:** Meta-Llama-3-8B-Instruct

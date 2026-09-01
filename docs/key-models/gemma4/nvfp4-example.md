@@ -1,3 +1,17 @@
+---
+id: nvfp4-example
+lastUpdated: 2026-06-09
+owner: dipikasikka1@gmail.com
+type: gemma4
+description: Learn how to quantize the Gemma 4 multimodal model to NVFP4 (FP4 weights and activations) via data-driven PTQ calibration while skipping vision and audio layers.
+tags:
+  - gemma4
+  - nvfp4
+  - quantization
+  - multimodal
+  - ptq
+  - calibration
+---
 ## Gemma 4 NVFP4 Example
 
 This example quantizes the `google/gemma-4-31B-it` multimodal model to NVFP4 (weights and activations quantized to FP4) using data-driven PTQ with calibration. The vision and audio layers are skipped during quantization.

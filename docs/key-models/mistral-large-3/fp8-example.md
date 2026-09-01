@@ -1,3 +1,17 @@
+---
+id: fp8-example
+lastUpdated: 2026-04-21
+owner: cajeon@redhat.com
+type: mistral-large-3
+description: Learn how to quantize Mistral Large 3 to FP8 block format with llm-compressor for vLLM deployment, including the vision-tower ignore list and params.json weight-name adjustments.
+tags:
+  - mistral-large-3
+  - fp8
+  - quantization
+  - model-free-ptq
+  - vllm
+  - ignore-list
+---
 ## Mistral Large 3 FP8 Example
 
 ### Code Walkthrough

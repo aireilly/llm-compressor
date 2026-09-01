@@ -1,3 +1,19 @@
+---
+id: nvfp4-moe-example
+lastUpdated: 2026-07-30
+owner: dipikasikka1@gmail.com
+type: qwen3.5
+description: Learn how to quantize the Qwen3.5-122B-A10B sparse MoE model to NVFP4 (FP4 weights and activations) with calibration data using llm-compressor oneshot; requires transformers >= v5.
+tags:
+  - qwen3.5
+  - nvfp4
+  - moe
+  - quantization
+  - calibration
+  - llm-compressor
+  - oneshot
+  - fp4
+---
 ## Qwen3.5 NVFP4 MoE Example
 
 This example quantizes the Qwen3.5-122B-A10B sparse MoE model to NVFP4 (weights and activations quantized to FP4) using calibration data.

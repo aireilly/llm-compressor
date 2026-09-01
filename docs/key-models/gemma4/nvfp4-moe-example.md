@@ -1,3 +1,20 @@
+---
+id: nvfp4-moe-example
+lastUpdated: 2026-06-09
+owner: dipikasikka1@gmail.com
+type: gemma4
+description: Learn how to quantize a Gemma 4 sparse MoE model to NVFP4 (FP4 weights and activations) using data-driven PTQ calibration with llmcompressor.
+tags:
+  - gemma4
+  - nvfp4
+  - moe
+  - quantization
+  - ptq
+  - calibration
+  - fp4
+  - vllm
+  - compressed-tensors
+---
 ## Gemma 4 NVFP4 MoE Example
 
 This example quantizes the `google/gemma-4-26B-A4B-it` sparse MoE model to NVFP4 (weights and activations quantized to FP4) using data-driven PTQ with calibration. The `SequentialGemma4TextExperts` modules are applied automatically by the pipeline to enable proper expert handling and vLLM compatibility.

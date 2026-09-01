@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-02-24
+owner: mark.j.kurtz@gmail.com
+title: Guides
+type: guides
+description: Learn about the LLM Compressor guides on compression schemes, saving models, and memory and runtime requirements.
+tags:
+  - guides
+  - compression
+  - quantization
+  - pruning
+  - memory
+  - runtime
+  - deployment
+---
 # Guides
 
 Welcome to the LLM Compressor guides section! Here you'll find comprehensive documentation covering key components and concepts of LLM Compressor. These guides will help you understand the various compression options available, how to apply them effectively, and how to deploy your optimized models for maximum performance.

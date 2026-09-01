@@ -1,3 +1,17 @@
+---
+id: faq
+lastUpdated: 2026-08-23
+owner: cajeon@redhat.com
+title: Frequently Asked Questions
+type: faq
+tags:
+  - faq
+  - troubleshooting
+  - quantization
+  - vllm
+  - memory
+  - compression-schemes
+---
 # Frequently Asked Questions
 
 Below are the most frequently asked questions when using LLM Compressor. If you do not see your question here, please file an issue: [LLM Compressor Issues](https://github.com/vllm-project/llm-compressor/issues).

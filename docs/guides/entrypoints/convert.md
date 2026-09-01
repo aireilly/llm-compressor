@@ -1,3 +1,18 @@
+---
+id: convert
+lastUpdated: 2026-05-21
+owner: dipikasikka1@gmail.com
+title: convert_checkpoint
+type: entrypoints
+description: Learn how to convert a model checkpoint between quantization formats (e.g. ModelOpt, AutoAWQ, compressed-tensors) or back to dense using the convert_checkpoint entrypoint.
+tags:
+  - quantization
+  - checkpoint-conversion
+  - compressed-tensors
+  - entrypoints
+  - safetensors
+  - fp8
+---
 # convert_checkpoint
 
 `convert_checkpoint` is an entrypoint in `compressed-tensors` for converting a model checkpoint from one quantization format to another. It operates entirely within the `compressed-tensors` library, working directly on safetensors files and updating the `quantization_config` in `config.json`.

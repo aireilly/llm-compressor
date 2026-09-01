@@ -1,3 +1,17 @@
+---
+id: index
+lastUpdated: 2026-02-25
+owner: 74046732+aireilly@users.noreply.github.com
+title: API reference
+type: api
+description: Learn about the auto-generated API reference for LLM Compressor, including the oneshot entry point and configuring modifiers programmatically.
+tags:
+  - api
+  - reference
+  - oneshot
+  - modifiers
+  - llmcompressor
+---
 # API reference
 
 !!! info

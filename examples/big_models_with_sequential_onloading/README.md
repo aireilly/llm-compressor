@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2026-06-09
+owner: dipikasikka1@gmail.com
+title: Big Model Quantization with Sequential Onloading
+type: big_models_with_sequential_onloading
+description: Learn how to quantize large language models that exceed single-GPU memory, using sequential onloading to compress one layer at a time on a single GPU.
+tags:
+  - sequential-onloading
+  - large-models
+  - memory-efficiency
+  - quantization
+  - single-gpu
+  - llama
+---
 # Big Model Quantization with Sequential Onloading
 
 ## What is Sequential Onloading? ##

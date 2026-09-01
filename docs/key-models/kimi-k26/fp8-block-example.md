@@ -1,3 +1,17 @@
+---
+id: fp8-block-example
+lastUpdated: 2026-05-20
+owner: brian-dellabetta@users.noreply.github.com
+type: kimi-k26
+description: Learn how to convert the Kimi-K2.6 checkpoint from its native 4-bit integer weights to an FP8 block-quantized checkpoint using model_free_ptq without a calibration dataset.
+tags:
+  - kimi-k26
+  - fp8-block
+  - model-free-ptq
+  - quantization
+  - dequantization
+  - checkpoint-conversion
+---
 ## Kimi-K2.6 FP8 Block Example
 
 ### Code Walkthrough

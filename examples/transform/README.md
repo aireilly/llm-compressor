@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2026-06-15
+owner: brian-dellabetta@users.noreply.github.com
+title: Applying Transforms to Improve Quantization Accuracy
+type: transform
+description: Learn how to apply transforms (SpinQuant/QuaRot or QuIP-style) to a model to improve quantization accuracy before or during quantization.
+tags:
+  - transforms
+  - quantization
+  - quip
+  - spinquant
+  - quarot
+  - accuracy
+---
 # Applying Transforms to Improve Quantization Accuracy
 
 This directory contains example scripts for applying transforms to models for the purpose of improving quantization accuracy. For more information on transforms, see [QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs](https://arxiv.org/abs/2404.00456). The two transform styles currently supported are SpinQuant/QuaRot-style (`SpinQuantModifier`), and QuIP-style (`QuIPModifier`).

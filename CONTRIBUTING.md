@@ -1,3 +1,17 @@
+---
+id: contributing
+lastUpdated: 2026-07-28
+owner: dipikasikka1@gmail.com
+title: Contributing to LLM Compressor
+description: Learn how to contribute to LLM Compressor, including reporting bugs, requesting features, claiming work, and submitting pull requests.
+tags:
+  - contributing
+  - community
+  - bug-reports
+  - feature-requests
+  - pull-requests
+  - documentation
+---
 # Contributing to LLM Compressor
 
 Thank you for your interest in contributing to LLM Compressor!

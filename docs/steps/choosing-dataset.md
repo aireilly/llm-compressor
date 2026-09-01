@@ -1,3 +1,19 @@
+---
+id: choosing-dataset
+lastUpdated: 2026-05-13
+owner: dipikasikka1@gmail.com
+title: Choosing your dataset
+type: steps
+tags:
+  - dataset
+  - calibration
+  - quantization
+  - gptq
+  - awq
+  - smoothquant
+  - autoround
+  - nvfp4
+---
 # Choosing your dataset
 
 Depending on your selected algorithm or scheme, you may also require a dataset. Many quantization algorithms, such as GPTQ, AWQ, SmoothQuant, and AutoRound, require a calibration dataset to analyze activation patterns and optimize weight transformations. This dataset helps the algorithm identify which weights and activations are most critical to preserve during compression. LLM Compressor also supports many datasets from the Hugging Face Datasets library, making it easy to find a suitable dataset for calibration.

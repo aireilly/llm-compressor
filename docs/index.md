@@ -1,3 +1,18 @@
+---
+id: index
+lastUpdated: 2026-08-17
+owner: 74046732+aireilly@users.noreply.github.com
+title: What is LLM Compressor?
+type: docs
+description: Learn about LLM Compressor, its purpose, model optimization capabilities for vLLM deployment, and the challenges quantization and pruning address.
+tags:
+  - overview
+  - quantization
+  - pruning
+  - vllm
+  - model-optimization
+  - introduction
+---
 # What is LLM Compressor?
 
 **LLM Compressor** is an easy-to-use library for optimizing large language models for deployment with vLLM. It provides a comprehensive toolkit for applying state-of-the-art compression algorithms to reduce model size, lower hardware requirements, and improve inference performance.

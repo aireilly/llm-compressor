@@ -1,5 +1,16 @@
 ---
 weight: -4
+id: readme
+lastUpdated: 2026-02-25
+owner: dipikasikka1@gmail.com
+title: LLM Compressor Examples
+type: examples
+description: Learn how to find the right LLM Compressor quantization example by quantization scheme, model type, or algorithm.
+tags:
+  - examples
+  - quantization
+  - models
+  - navigation
 ---
 
 # LLM Compressor Examples

@@ -1,3 +1,17 @@
+---
+id: readme
+lastUpdated: 2026-08-23
+owner: 88019612+wanadzhar913@users.noreply.github.com
+title: '`trace_subgraphs` Benchmark'
+type: trace_subgraphs
+description: Learn how to benchmark or optimize the trace_subgraphs function's runtime and memory at large sequential-target counts.
+tags:
+  - benchmark
+  - performance
+  - trace-subgraphs
+  - profiling
+  - fx-tracing
+---
 # `trace_subgraphs` Benchmark
 
 Synthetic benchmark for measuring `trace_subgraphs` runtime at large sequential-target

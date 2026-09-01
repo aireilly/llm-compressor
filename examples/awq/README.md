@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2026-06-09
+owner: kylesayrs@gmail.com
+title: 'AWQ Quantization #'
+type: awq
+description: Learn how to quantize model weights with Activation Aware Quantization (AWQ) using LLM Compressor, including configuring AWQModifier recipes or adding AWQ mappings for a new model architecture.
+tags:
+  - awq
+  - quantization
+  - weight-quantization
+  - calibration
+  - awqmodifier
+  - mappings
+---
 # AWQ Quantization #
 
 Activation Aware Quantization (AWQ) is a state-of-the-art technique to quantize the weights of large language models which involves using a small calibration dataset to calibrate the model. The AWQ algorithm utilizes calibration data to derive scaling factors which reduce the dynamic range of weights while minimizing accuracy loss to the most salient weight values.

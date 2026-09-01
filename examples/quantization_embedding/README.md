@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-06-15
+owner: karthikkothuri2009@gmail.com
+title: Quantizing the Input Embedding
+type: quantization_embedding
+tags:
+  - quantization
+  - embedding
+  - weight-only
+  - wna16
+  - vllm
+  - large-vocab
+  - data-free
+  - oneshot
+---
 # Quantizing the Input Embedding
 
 `llm-compressor` can quantize a model's **input embedding table** (the vocab

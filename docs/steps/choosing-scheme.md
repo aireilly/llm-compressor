@@ -1,3 +1,20 @@
+---
+id: choosing-scheme
+lastUpdated: 2026-07-24
+owner: 74046732+aireilly@users.noreply.github.com
+title: Choosing the right compression scheme
+type: steps
+description: Learn how to select a quantization format or compression scheme (W4A16, W8A8, NVFP4, MXFP4, FP8, etc.) based on GPU hardware, vLLM compute capability, or deployment requirements.
+tags:
+  - compression-scheme
+  - quantization
+  - hardware
+  - gpu
+  - vllm
+  - fp8
+  - nvfp4
+  - int8
+---
 # Choosing the right compression scheme
 
 Before selecting a compression algorithm, you should first determine what format and compression scheme best fits your hardware and deployment requirements.

@@ -2,7 +2,16 @@
 name: Feature request
 about: Suggest an idea for this project
 labels: enhancement
-
+id: feature-request
+lastUpdated: 2021-01-21
+owner: 74554921+jeanniefinks@users.noreply.github.com
+type: ISSUE_TEMPLATE
+description: Learn how to generate or complete a GitHub feature request issue template that captures problem statement, desired solution, alternatives, and additional context.
+tags:
+  - github
+  - issue-template
+  - feature-request
+  - contributing
 ---
 
 **Is your feature request related to a problem? Please describe.**

@@ -1,3 +1,18 @@
+---
+id: index
+lastUpdated: 2026-04-16
+owner: dipikasikka1@gmail.com
+title: Developer Guides
+type: developer-tutorials
+description: Learn how to extend LLM Compressor by adding a custom modifier, observer, or MoE calibration support for a new model architecture.
+tags:
+  - developer-guide
+  - contributing
+  - modifiers
+  - observers
+  - moe-calibration
+  - extensibility
+---
 # Developer Guides
 
 These guides are for contributors who want to extend LLM Compressor with new functionality. Each guide walks through the relevant abstractions, the contracts you must fulfill, and a concrete working example.

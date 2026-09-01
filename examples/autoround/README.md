@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2026-07-10
+owner: yi4.liu@intel.com
+title: '`AutoRound` Quantization'
+type: autoround
+tags:
+  - autoround
+  - quantization
+  - int4
+  - low-bit
+  - ptq
+  - vllm
+  - compressed-tensors
+---
 # `AutoRound` Quantization
 
 `llm-compressor` supports [AutoRound](https://aclanthology.org/2024.findings-emnlp.662.pdf), an advanced quantization technique that delivers **high-accuracy**, **low-bit quantization**. The quantized results are fully compatible with `compressed-tensors` and can be served directly with vLLM.

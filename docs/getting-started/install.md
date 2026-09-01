@@ -1,3 +1,17 @@
+---
+id: install
+lastUpdated: 2026-01-29
+owner: mark.j.kurtz@gmail.com
+title: Installation
+type: getting-started
+description: Learn how to install LLM Compressor, including from PyPI, a specific version, source, or a local clone in editable dev mode.
+tags:
+  - installation
+  - pip
+  - pypi
+  - source
+  - setup
+---
 # Installation
 
 LLM Compressor can be installed using several methods depending on your requirements. Below are the detailed instructions for each installation pathway.

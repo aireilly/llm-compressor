@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2026-06-09
+owner: michael@neuralmagic.com
+title: KV Cache Quantization
+type: quantization_kv_cache
+description: Learn how to quantize the fp8 KV cache of an LLM with llmcompressor for memory savings and faster vLLM inference on Ada Lovelace or Hopper GPUs.
+tags:
+  - quantization
+  - kv-cache
+  - fp8
+  - vllm
+  - calibration
+  - llama
+---
 # KV Cache Quantization
 
 `llmcompressor` supports quantizing `fp8` KV Cache for memory savings and inference acceleration with `vllm`.

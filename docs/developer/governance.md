@@ -1,3 +1,17 @@
+---
+id: governance
+lastUpdated: 2026-08-05
+owner: dipikasikka1@gmail.com
+title: Governance
+type: developer
+description: Learn about who maintains LLM Compressor, how committers and area owners are assigned, and how project governance and code review responsibilities work.
+tags:
+  - governance
+  - committers
+  - code-owners
+  - project-management
+  - contributing
+---
 # Governance
 
 LLM Compressor is part of the [vLLM project](https://github.com/vllm-project) and follows a similar lightweight governance model: a small group of committers is responsible for the technical direction of the project, reviewing and merging contributions, and maintaining the overall health of the codebase.

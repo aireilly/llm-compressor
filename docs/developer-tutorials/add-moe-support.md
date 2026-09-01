@@ -1,3 +1,20 @@
+---
+id: add-moe-support
+lastUpdated: 2026-08-28
+owner: kylesayrs@gmail.com
+title: Background
+type: developer-tutorials
+description: Learn how to add or debug Mixture of Experts (MoE) model support for quantization/calibration in LLM Compressor, including MoE linearization or transformers v5 loading with load_context.
+tags:
+  - moe
+  - calibration
+  - quantization
+  - transformers-v5
+  - linearization
+  - load-context
+  - gptq
+  - awq
+---
 # Background
 
 ## How are Mixture of Experts (MoE) models calibrated?

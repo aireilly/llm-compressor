@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2026-06-04
+owner: '@kylesayrs'
+title: Input arguments for the `oneshot` entrypoint
+type: args
+tags:
+  - arguments
+  - oneshot
+  - parsers
+  - model
+  - dataset
+  - recipe
+  - configuration
+---
 # Input arguments for the `oneshot` entrypoint
 
 Parsers in `llm-compressor` define the input arguments required for various entry points, including `oneshot`, `train`, and `eval`.

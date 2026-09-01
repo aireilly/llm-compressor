@@ -1,3 +1,17 @@
+---
+id: readme
+lastUpdated: 2026-02-19
+owner: '@kylesayrs'
+title: SmoothQuant Modifier Mapping Tutorial
+type: smoothquant
+description: Learn how to configure or troubleshoot SmoothQuant modifier mappings to smooth activations before quantization in LLM Compressor.
+tags:
+  - smoothquant
+  - quantization
+  - activation-smoothing
+  - modifier-mappings
+  - llm-compressor
+---
 # SmoothQuant Modifier Mapping Tutorial
 
 In this tutorial, we'll cover how to specify the correct mappings for applying the SmoothQuant Modifier from the [LLM Compressor](https://github.com/vllm-project/llm-compressor) repository, based on the SmoothQuant paper [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2211.10438).

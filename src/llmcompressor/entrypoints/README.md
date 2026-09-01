@@ -1,3 +1,20 @@
+---
+id: readme
+lastUpdated: 2026-06-09
+owner: '@kylesayrs'
+title: Compression Entrypoints
+type: entrypoints
+description: Learn about LLM-Compressor compression entrypoints such as oneshot or train, and configuring their ModelArguments, DatasetArguments, and RecipeArguments inputs.
+tags:
+  - entrypoints
+  - oneshot
+  - quantization
+  - ptq
+  - sparsification
+  - arguments
+  - vllm
+  - llm-compressor
+---
 # Compression Entrypoints
 
 ## Oneshot

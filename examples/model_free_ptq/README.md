@@ -1,3 +1,17 @@
+---
+id: readme
+lastUpdated: 2026-08-04
+owner: kylesayrs@gmail.com
+title: Model-free Quantization
+type: model_free_ptq
+tags:
+  - quantization
+  - ptq
+  - fp8
+  - nvfp4
+  - model-free
+  - safetensors
+---
 # Model-free Quantization
 
 `model_free_ptq` provides a PTQ pathway for data-free schemes (such for FP8 Dynamic Per Token or FP8 Block). Specifically, this pathway removes the requirement for a model definition or the need to load the model through transformers. If you are interested in applying a data-free scheme, there are two key scenarios in which applying this pathway may make sense for your model:

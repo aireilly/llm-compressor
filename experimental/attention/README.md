@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2026-04-02
+owner: kylesayrs@gmail.com
+title: 'Attention Quantization in LLM Compressor #'
+type: attention
+tags:
+  - attention
+  - quantization
+  - nvfp4
+  - spinquant
+  - r3
+  - vllm
+  - calibration
+---
 # Attention Quantization in LLM Compressor #
 LLM Compressor supports applying static attention quantization to models. Please note that NVFP4 attention quantization and R3 support in vLLM is still ongoing and is not fully supported as of this writing.
 

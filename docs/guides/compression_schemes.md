@@ -1,3 +1,21 @@
+---
+id: compression-schemes
+lastUpdated: 2026-07-03
+owner: dipikasikka1@gmail.com
+title: Compression Schemes
+type: guides
+description: Learn how to select or compare quantization compression schemes (FP8, INT8, W4A16, NVFP4, MXFP4, MXFP8) supported by LLM Compressor and compressed-tensors.
+tags:
+  - quantization
+  - compression-schemes
+  - fp8
+  - int8
+  - w4a16
+  - nvfp4
+  - mxfp4
+  - mxfp8
+  - ptq
+---
 # Compression Schemes
 
 Below is a summary of the most popular schemes supported through LLM Compressor and compressed-tensors.

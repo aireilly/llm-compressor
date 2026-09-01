@@ -1,3 +1,17 @@
+---
+id: index
+lastUpdated: 2026-05-29
+owner: dipikasikka1@gmail.com
+title: Gemma 4
+type: gemma4
+tags:
+  - gemma4
+  - quantization
+  - nvfp4
+  - fp8
+  - moe
+  - transformers
+---
 # Gemma 4
 
 Quantization examples for Google's Gemma 4 models.

@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-03-03
+owner: xin3.he@intel.com
+title: '`AutoRound` Quantization'
+type: quantization_w4a4_fp4
+description: Learn how to apply AutoRound quantization to produce high-accuracy low-bit (W4A4/NVFP4) models compatible with compressed-tensors and vLLM.
+tags:
+  - autoround
+  - quantization
+  - nvfp4
+  - w4a4
+  - vllm
+  - compressed-tensors
+  - llama
+---
 # `AutoRound` Quantization
 
 `llm-compressor` supports [AutoRound](https://aclanthology.org/2024.findings-emnlp.662.pdf), an advanced quantization technique that delivers **high-accuracy**, **low-bit quantization**. The quantized results are fully compatible with `compressed-tensors` and can be served directly with vLLM.

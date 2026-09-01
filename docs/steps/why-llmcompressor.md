@@ -1,3 +1,18 @@
+---
+id: why-llmcompressor
+lastUpdated: 2026-05-13
+owner: 74046732+aireilly@users.noreply.github.com
+title: Why use LLM Compressor?
+type: steps
+description: Learn about the purpose and benefits of LLM Compressor, including how quantization and pruning reduce hardware costs, improve inference speed, and preserve model accuracy for vLLM deployment.
+tags:
+  - llm-compressor
+  - quantization
+  - pruning
+  - vllm
+  - inference-optimization
+  - model-compression
+---
 # Why use LLM Compressor?
 
 As AI models continue to grow in size and capability, deploying them efficiently becomes increasingly challenging.

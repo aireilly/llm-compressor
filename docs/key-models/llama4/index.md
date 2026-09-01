@@ -1,3 +1,19 @@
+---
+id: index
+lastUpdated: 2026-05-21
+owner: dipikasikka1@gmail.com
+title: Llama 4
+type: llama4
+description: Learn how to quantize Meta's Llama 4 Scout or Maverick multimodal models, or find pre-quantized Llama 4 checkpoints (NVFP4, FP8, w4a16).
+tags:
+  - llama4
+  - quantization
+  - multimodal
+  - fp8
+  - nvfp4
+  - w4a16
+  - llm-compressor
+---
 # Llama 4
 
 Quantization examples for Meta's Llama 4 Scout multimodal model.

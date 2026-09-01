@@ -1,3 +1,19 @@
+---
+id: nvfp4-moe-example
+lastUpdated: 2026-07-30
+owner: dipikasikka1@gmail.com
+type: qwen3.6
+description: Learn how to quantize the Qwen3.6 (or architecturally identical Qwen3.5) sparse MoE model to NVFP4 weights and activations using data-driven PTQ calibration in llm-compressor.
+tags:
+  - qwen3.6
+  - nvfp4
+  - moe
+  - quantization
+  - ptq
+  - calibration
+  - compressed-tensors
+  - transformers-v5
+---
 ## Qwen3.6 NVFP4 MoE Example
 
 This example quantizes the Qwen3.6-35B-A3B sparse MoE model to NVFP4 (weights and activations quantized to FP4) using data-driven PTQ with calibration.

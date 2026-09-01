@@ -1,3 +1,18 @@
+---
+id: fp8-nvfp4-example
+lastUpdated: 2026-07-24
+owner: kylesayrs@gmail.com
+type: deepseek-v4
+description: Learn how to quantize DeepSeek-V4 to mixed precision with NVFP4 for MoE expert weights and FP8-Block for attention projections in llm-compressor.
+tags:
+  - deepseek-v4
+  - nvfp4
+  - fp8-block
+  - moe
+  - quantization
+  - mixed-precision
+  - attention
+---
 ## DeepSeek V4 NVFP4 + FP8 Example
 
 This example quantizes DeepSeek-V4-Flash to a mixed-precision format: NVFP4 for MoE expert weights and FP8-Block for attention projection weights.

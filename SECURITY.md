@@ -1,3 +1,16 @@
+---
+id: security
+lastUpdated: 2026-07-27
+owner: 43462564+arijitroy003@users.noreply.github.com
+title: Security Policy
+description: Learn how to report a security vulnerability in LLM Compressor, understand its threat model, and determine issue severity ratings.
+tags:
+  - security
+  - vulnerability-reporting
+  - threat-model
+  - severity
+  - disclosure
+---
 # Security Policy
 
 ## Reporting security issues

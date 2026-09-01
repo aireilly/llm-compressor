@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-06-30
+owner: ryan@fernandes.us
+title: Mixture of Experts (MoE) Compression with REAP Expert Pruning
+type: reap_expert_pruning
+description: Learn how to compress Mixture of Experts (MoE) models by structurally pruning low-saliency experts with REAP to reduce VRAM footprint and inference GPU cost.
+tags:
+  - moe
+  - expert-pruning
+  - reap
+  - compression
+  - vram
+  - calibration
+  - saliency
+---
 # Mixture of Experts (MoE) Compression with REAP Expert Pruning
 
 ## Algorithm

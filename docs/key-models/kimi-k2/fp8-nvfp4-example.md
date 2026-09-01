@@ -1,3 +1,17 @@
+---
+id: fp8-nvfp4-example
+lastUpdated: 2026-06-09
+owner: kylesayrs@gmail.com
+type: kimi-k2
+description: Learn how to quantize Kimi-K2 models to FP8 block format using llm-compressor's model_free_ptq with compressed-tensors.
+tags:
+  - kimi-k2
+  - fp8
+  - quantization
+  - model-free-ptq
+  - compressed-tensors
+  - block-quantization
+---
 ## Kimi-K2 FP8 Example
 
 ### Code Walkthrough

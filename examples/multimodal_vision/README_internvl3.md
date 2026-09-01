@@ -1,3 +1,20 @@
+---
+id: readme-internvl3
+lastUpdated: 2026-06-09
+owner: 977502733@qq.com
+title: Quantizing InternVL3-8B-hf
+type: multimodal_vision
+description: Learn how to quantize InternVL3-8B-hf or similar multimodal vision-language models, especially to apply FP8/GPTQ quantization to only the LLM part while ignoring vision tower and multimodal projector.
+tags:
+  - quantization
+  - multimodal
+  - vision-language
+  - internvl3
+  - gptq
+  - fp8
+  - calibration
+  - data-collator
+---
 # Quantizing InternVL3-8B-hf
 This file shows the example of quantizing InternVL3-8B-hf. 
 

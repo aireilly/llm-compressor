@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-06-09
+owner: rshaw@neuralmagic.com
+title: '`fp8` Weight and Activation Quantization'
+type: quantization_w8a8_fp8
+description: Learn how to quantize model weights and activations to fp8 for memory savings and vLLM inference acceleration using simple PTQ with the FP8_DYNAMIC scheme, no calibration data required.
+tags:
+  - quantization
+  - fp8
+  - w8a8
+  - ptq
+  - vllm
+  - weights
+  - activations
+---
 # `fp8` Weight and Activation Quantization
 
 `llmcompressor` supports quantizing weights and activations to `fp8` for memory savings and inference acceleration with `vllm`

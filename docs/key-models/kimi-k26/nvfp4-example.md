@@ -1,3 +1,18 @@
+---
+id: nvfp4-example
+lastUpdated: 2026-06-09
+owner: brian-dellabetta@users.noreply.github.com
+type: kimi-k26
+description: Learn how to create an NVFP4 checkpoint for Kimi-K2.6, requiring dequantization of the 4-bit integer checkpoint to bfloat16 and quantization via oneshot with disk offloading.
+tags:
+  - kimi-k26
+  - nvfp4
+  - quantization
+  - dequantization
+  - disk-offloading
+  - oneshot
+  - calibration
+---
 ## Kimi-K2.6 NVFP4 Example
 
 ### Code Walkthrough

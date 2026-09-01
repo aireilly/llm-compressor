@@ -1,3 +1,18 @@
+---
+id: compress
+lastUpdated: 2026-06-09
+owner: dipikasikka1@gmail.com
+title: Compress Your Model
+type: steps
+description: Learn how to compress a model with LLM Compressor via the oneshot API to apply quantization recipes and schemes like FP8.
+tags:
+  - compression
+  - quantization
+  - oneshot
+  - fp8
+  - recipe
+  - vllm
+---
 # Compress Your Model
 
 LLM Compressor provides a straightforward way to compress your models using various optimization techniques. This guide walks you through the process of compressing a model with different quantization methods.

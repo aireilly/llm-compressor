@@ -1,3 +1,18 @@
+---
+id: saving-a-model
+lastUpdated: 2026-03-25
+owner: rtuli@redhat.com
+title: Saving a Compressed Model
+type: guides
+description: Learn how to save a compressed or quantized model to disk with save_pretrained, including choosing serialization format or toggling compression.
+tags:
+  - saving
+  - serialization
+  - compression
+  - quantization
+  - save_pretrained
+  - compressed-tensors
+---
 # Saving a Compressed Model
 
 The `llmcompressor` library extends Hugging Face's `save_pretrained` method with additional arguments to support model compression functionality. Serialization is handled by [compressed-tensors](https://github.com/neuralmagic/compressed-tensors), which manages the on-disk format for quantized and sparse models. This document explains these extra arguments and how to use them effectively.

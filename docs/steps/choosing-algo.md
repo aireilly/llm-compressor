@@ -1,3 +1,22 @@
+---
+id: choosing-algo
+lastUpdated: 2026-03-24
+owner: 74046732+aireilly@users.noreply.github.com
+title: Choosing the right compression algorithm
+type: steps
+description: Learn how to select a compression algorithm (SmoothQuant, AWQ, GPTQ, AutoRound, RTN) to apply a chosen quantization, pruning, or transform scheme, balancing accuracy recovery against calibration time.
+tags:
+  - quantization
+  - algorithms
+  - awq
+  - gptq
+  - smoothquant
+  - autoround
+  - rtn
+  - pruning
+  - compression
+  - calibration
+---
 # Choosing the right compression algorithm
 
 After you've [chosen a compression scheme](choosing-scheme.md), you're ready to choose an algorithm to apply that scheme to your model.

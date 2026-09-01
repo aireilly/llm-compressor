@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2025-12-12
+owner: '@kylesayrs'
+title: Quantizing models without a model definition
+type: model_free
+tags:
+  - quantization
+  - ptq
+  - fp8
+  - safetensors
+  - model-free
+  - data-free
+  - checkpoint
+---
 # Quantizing models without a model definition 
 
 `model_free_ptq` provides a PTQ pathway for data-free schemes (such as FP8 Dynamic Per Token or FP8 Block). Specifically, this pathway removes the requirement for a model definition or the need to load the model through transformers. If you are interested in applying a data-free scheme, there are two key scenarios in which applying this pathway may make sense for your model:

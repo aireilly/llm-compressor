@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-07-10
+owner: yi4.liu@intel.com
+title: '`AutoRound` Quantization'
+type: quantization_wNa16
+description: Learn how to apply AutoRound weight-only low-bit quantization (e.g. W4A16) to an LLM with llm-compressor for vLLM deployment.
+tags:
+  - autoround
+  - quantization
+  - weight-only
+  - w4a16
+  - vllm
+  - compressed-tensors
+  - llama
+---
 # `AutoRound` Quantization
 
 `llm-compressor` supports [AutoRound](https://aclanthology.org/2024.findings-emnlp.662.pdf), an advanced quantization technique that delivers **high-accuracy**, **low-bit quantization**. The quantized results are fully compatible with `compressed-tensors` and can be served directly with vLLM.

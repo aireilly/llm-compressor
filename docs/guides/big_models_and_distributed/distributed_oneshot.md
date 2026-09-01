@@ -1,3 +1,16 @@
+---
+id: distributed-oneshot
+lastUpdated: 2026-06-09
+owner: 39544797+HDCharles@users.noreply.github.com
+type: big_models_and_distributed
+tags:
+  - distributed
+  - oneshot
+  - calibration
+  - gptq
+  - torch-distributed
+  - multi-gpu
+---
 ## Distributed Oneshot ##
 LLM Compressor supports distributed oneshot to greatly speed up model calibration and compression. Each rank processes a disjoint partition of the calibration dataset (data-parallel calibration); modifiers then synchronize statistics across ranks so all ranks produce identical quantization parameters. For the GPTQ modifier, compression itself is also distributed: modules are assigned to ranks by a greedy bin-packing algorithm and the compressed weights are broadcast back. For more information on the design, see [[RFC] [Performance Refactor][Distributed] Sequential Onloading with Data-Parallel Calibration and Weight-Parallel Optimization](https://github.com/vllm-project/llm-compressor/issues/2180) as well as [[GPTQ][ddp] enabling DDP for GPTQ](https://github.com/vllm-project/llm-compressor/pull/2333).
 

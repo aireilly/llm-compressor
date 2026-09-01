@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2026-06-09
+owner: kylesayrs@gmail.com
+title: 'Multimodal Vision-Language Quantization #'
+type: multimodal_vision
+description: Learn how to quantize vision-language multimodal models with GPTQ, including configuring sequential targets, ignore patterns, or the GPTQModifier for your own model.
+tags:
+  - multimodal
+  - vision-language
+  - gptq
+  - quantization
+  - w4a16
+  - sequential-targets
+---
 # Multimodal Vision-Language Quantization #
 
 <p align="center" style="text-align: center;">

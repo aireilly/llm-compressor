@@ -1,3 +1,20 @@
+---
+id: readme-granite4
+lastUpdated: 2026-08-25
+owner: 57839396+chichun-charlie-liu@users.noreply.github.com
+title: '`fp8` Weight and Activation Quantization for Granite 4'
+type: quantization_w8a8_fp8
+description: Learn how to quantize IBM Granite 4 hybrid MoE models to fp8 weights and activations for vLLM, including handling 3D MoE expert layers and skipping the router.
+tags:
+  - quantization
+  - fp8
+  - granite4
+  - moe
+  - vllm
+  - w8a8
+  - activation-quantization
+  - weight-quantization
+---
 # `fp8` Weight and Activation Quantization for Granite 4
 
 `llmcompressor` supports quantizing weights and activations to `fp8` for memory savings and inference acceleration with `vllm`

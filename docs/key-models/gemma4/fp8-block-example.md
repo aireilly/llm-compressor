@@ -1,3 +1,17 @@
+---
+id: fp8-block-example
+lastUpdated: 2026-05-21
+owner: dipikasikka1@gmail.com
+type: gemma4
+description: Learn how to quantize Gemma 4 (google/gemma-4-31B-it) to FP8 block format using the model_free_ptq entrypoint without a calibration dataset.
+tags:
+  - gemma4
+  - fp8-block
+  - model-free-ptq
+  - quantization
+  - vision-model
+  - calibration-free
+---
 ## Gemma 4 FP8 Block Example
 
 This example quantizes the `google/gemma-4-31B-it` model to FP8 block format using the `model_free_ptq` entrypoint. Because FP8 block quantization does not require a calibration dataset, no calibration data is needed.

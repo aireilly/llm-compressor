@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-06-10
+owner: dipikasikka1@gmail.com
+title: Quantizing Mixture of Experts (MoE) models
+type: quantizing_moe
+description: Learn how to quantize Mixture of Experts (MoE) models with llm-compressor, such as applying AWQ W4A16 quantization to models like GLM-4.7.
+tags:
+  - moe
+  - quantization
+  - awq
+  - w4a16
+  - glm-4.7
+  - calibration
+  - mixture-of-experts
+---
 # Quantizing Mixture of Experts (MoE) models
 
 These examples demonstrate how to quantize MoE models using `llm-compressor`. We'll walk through the GLM-4.7 example which applies AWQ quantization to create a W4A16 (4-bit weights, 16-bit activations) model.

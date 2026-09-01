@@ -1,3 +1,17 @@
+---
+id: model-loading
+lastUpdated: 2026-06-09
+owner: kylesayrs@gmail.com
+title: 'Model Loading #'
+type: big_models_and_distributed
+tags:
+  - model-loading
+  - device-map
+  - offloading
+  - distributed
+  - vram
+  - sequential-pipeline
+---
 # Model Loading #
 LLM Compressor utilizes the [Compressed Tensors](https://github.com/vllm-project/compressed-tensors) library to handle model offloading. In nearly all cases, it is recommended to compress your model using the [sequential pipeline](./sequential_onloading.md), which enables the quantization of large models without requiring significant VRAM. 
 

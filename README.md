@@ -1,3 +1,16 @@
+---
+id: readme
+lastUpdated: 2026-08-24
+owner: dipikasikka1@gmail.com
+description: Learn about the llmcompressor library, its quantization features, vLLM integration, and getting started with model optimization.
+tags:
+  - quantization
+  - llm
+  - vllm
+  - compression
+  - overview
+  - getting-started
+---
 <div align="center">
 
 <picture>

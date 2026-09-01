@@ -1,3 +1,20 @@
+---
+id: memory
+lastUpdated: 2026-02-26
+owner: dipikasikka1@gmail.com
+title: Memory requirements for LLM Compressor
+type: guides
+description: Learn how to calculate CPU and GPU memory requirements for compressing models with LLM Compressor, including GPTQ/SparseGPT Hessian overhead, large models, and models with vision towers.
+tags:
+  - memory
+  - gpu
+  - cpu
+  - gptq
+  - sparsegpt
+  - vision-tower
+  - model-size
+  - requirements
+---
 # Memory requirements for LLM Compressor
 
 When compressing a model you should be aware that the memory requirements are dependent on model size and the algorithm used, such as GPTQ/SparseGPT.  

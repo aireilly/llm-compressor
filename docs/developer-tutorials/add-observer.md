@@ -1,3 +1,17 @@
+---
+id: add-observer
+lastUpdated: 2026-05-19
+owner: 39544797+HDCharles@users.noreply.github.com
+title: Adding a New Observer
+type: developer-tutorials
+description: Learn how to implement a custom observer for quantization calibration or extend how weight and activation statistics are accumulated in llm-compressor.
+tags:
+  - observers
+  - quantization
+  - calibration
+  - custom-implementation
+  - statistics
+---
 # Adding a New Observer
 
 Observers analyze weight and activation tensors during calibration to compute the statistics needed for quantization. This guide explains how observers fit into the quantization pipeline and how to implement a custom one.

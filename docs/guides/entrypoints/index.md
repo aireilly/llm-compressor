@@ -1,3 +1,18 @@
+---
+id: index
+lastUpdated: 2026-05-21
+owner: dipikasikka1@gmail.com
+title: Entrypoints
+type: entrypoints
+description: Learn how to choose between LLM Compressor's post-training quantization entrypoints (oneshot, model_free_ptq, convert_checkpoint) for a given model or scheme.
+tags:
+  - quantization
+  - ptq
+  - oneshot
+  - model-free-ptq
+  - convert-checkpoint
+  - entrypoints
+---
 # Entrypoints
 
 LLM Compressor provides two entrypoints for post-training quantization (PTQ), each suited to different scenarios. The `compressed-tensors` library also provides a `convert_checkpoint` entrypoint for converting checkpoint formats without loading the model.

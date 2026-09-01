@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-06-09
+owner: kylesayrs@gmail.com
+title: Multimodal Audio Model Quantization
+type: multimodal_audio
+description: Learn how to quantize multimodal audio language models (such as Whisper) using GPTQ, including configuring sequential targets and GPTQModifier parameters.
+tags:
+  - multimodal
+  - audio
+  - quantization
+  - gptq
+  - whisper
+  - w4a16
+  - asr
+---
 #  Multimodal Audio Model Quantization
 
 https://github.com/user-attachments/assets/6732c60b-1ebe-4bed-b409-c16c4415dff5

@@ -1,3 +1,19 @@
+---
+id: nvfp4-fp8-example
+lastUpdated: 2026-07-24
+owner: kylesayrs@gmail.com
+type: glm-5.2
+description: Learn how to quantize THUDM/zai-org GLM-5.2 mixed dense/MoE models to mixed-precision NVFP4 (MoE experts) plus FP8-Block (attention and shared experts), especially with multi-GPU DDP calibration.
+tags:
+  - glm-5.2
+  - nvfp4
+  - fp8-block
+  - moe
+  - quantization
+  - ddp
+  - mixed-precision
+  - calibration
+---
 ## GLM-5.2 NVFP4 + FP8 Example
 
 This example quantizes THUDM's GLM-5.2 mixed dense/MoE model to a mixed-precision format: NVFP4 for MoE expert weights and FP8-Block for attention and shared expert weights. Due to the model's size, quantization requires multiple GPUs via DDP.

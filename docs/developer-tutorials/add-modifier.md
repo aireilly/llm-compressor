@@ -1,3 +1,18 @@
+---
+id: add-modifier
+lastUpdated: 2026-07-27
+owner: dipikasikka1@gmail.com
+title: Adding a New Modifier
+type: developer-tutorials
+description: Learn how to implement a custom compression modifier in LLM Compressor, including its lifecycle hooks and the Modifier base class contract.
+tags:
+  - modifiers
+  - extension
+  - lifecycle
+  - calibration
+  - custom-algorithm
+  - developer-guide
+---
 # Adding a New Modifier
 
 Modifiers are the core extension point in LLM Compressor. Each compression algorithm — GPTQ, AWQ, SmoothQuant, and others — is implemented as a modifier. This tutorial walks through the modifier contract, lifecycle, and how to implement a custom modifier.

@@ -1,3 +1,17 @@
+---
+id: index
+lastUpdated: 2026-07-24
+owner: mark.j.kurtz@gmail.com
+title: Developer
+type: developer
+description: Learn about contributing to LLM Compressor, its community guidelines, contribution process, and project governance.
+tags:
+  - developer
+  - contributing
+  - governance
+  - code-of-conduct
+  - community
+---
 # Developer
 
 If you're interested in fixing bugs, adding new features, improving documentation, or understanding the project's governance, review the below information.

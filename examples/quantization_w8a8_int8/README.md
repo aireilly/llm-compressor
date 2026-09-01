@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2026-06-09
+owner: rshaw@neuralmagic.com
+title: '`int8` Weight and Activation Quantization'
+type: quantization_w8a8_int8
+description: Learn how to quantize model weights and activations to int8 with llm-compressor for memory savings and vLLM inference acceleration on Nvidia GPUs (compute capability >7.5).
+tags:
+  - quantization
+  - int8
+  - w8a8
+  - llm-compressor
+  - vllm
+  - calibration
+---
 # `int8` Weight and Activation Quantization
 
 `llm-compressor` supports quantizing weights and activations to `int` for memory savings and inference acceleration with `vLLM`

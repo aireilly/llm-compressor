@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-04-03
+owner: '@kylesayrs'
+title: Modifiers Overview
+type: modifiers
+description: Learn about the pruning and quantization modifiers available in llm-compressor and how to choose between them.
+tags:
+  - modifiers
+  - pruning
+  - quantization
+  - sparsegpt
+  - wanda
+  - calibration
+  - one-shot
+---
 # Modifiers Overview
 
 A `Modifier` in `llm-compressor` is an algorithm that can be applied to a model to change 

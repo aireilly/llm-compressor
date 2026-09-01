@@ -1,3 +1,19 @@
+---
+id: observers
+lastUpdated: 2026-08-25
+owner: 39544797+HDCharles@users.noreply.github.com
+title: Observers Overview
+type: guides
+description: Learn about observers in llm-compressor for analyzing weight/activation tensors during calibration, computing quantization parameters, or implementing custom observer subclasses.
+tags:
+  - observers
+  - calibration
+  - quantization
+  - scale
+  - zero-point
+  - fp4
+  - global-scale
+---
 # Observers Overview
 
 An `Observer` in `llm-compressor` is a utility class responsible for analyzing weight and activation tensors during calibration. Observers work in two phases:

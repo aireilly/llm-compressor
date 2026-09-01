@@ -1,3 +1,19 @@
+---
+id: nvfp4-fp8-example
+lastUpdated: 2026-07-24
+owner: kylesayrs@gmail.com
+type: hy-v3
+description: Learn how to quantize Tencent's HY-V3 (Hy3) sparse MoE model to mixed-precision NVFP4 expert weights plus FP8-Block attention across multiple GPUs with DDP.
+tags:
+  - hy-v3
+  - nvfp4
+  - fp8-block
+  - moe
+  - ddp
+  - quantization
+  - multi-gpu
+  - calibration
+---
 ## HY-V3 NVFP4 + FP8 Example
 
 This example quantizes Tencent's HY-V3 (Hy3) sparse MoE model to a mixed-precision format: NVFP4 for MoE expert weights and FP8-Block for attention weights. Due to the model's size, quantization requires multiple GPUs via DDP.

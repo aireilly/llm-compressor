@@ -1,3 +1,18 @@
+---
+id: readme
+lastUpdated: 2026-04-09
+owner: '@dsikka'
+type: deepseekv32
+description: Learn about the bfloat16, data-parallel DeepSeekV3.2 model definition in llm-compressor for oneshot quantization, including its Indexer, config, and Transformer refactors.
+tags:
+  - deepseekv32
+  - model-definition
+  - bfloat16
+  - quantization
+  - oneshot
+  - transformers
+  - indexer
+---
 ## DeepSeekV3.2 bfloat16 model def
 
 The original DeepSeekV3.2 model definition is hard-coded to work with tensor parallelism and the fp8 quant method and the FP8_BLOCK scheme.

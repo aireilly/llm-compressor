@@ -1,3 +1,19 @@
+---
+id: oneshot
+lastUpdated: 2026-06-09
+owner: dipikasikka1@gmail.com
+title: oneshot
+type: entrypoints
+tags:
+  - oneshot
+  - ptq
+  - calibration
+  - quantization
+  - entrypoint
+  - gptq
+  - awq
+  - smoothquant
+---
 # oneshot
 
 `oneshot` is the primary entrypoint for post-training quantization (PTQ) when your algorithm or scheme requires calibration data. It loads a model through Hugging Face `transformers`, applies recipe-defined modifiers (such as GPTQ, AWQ, SmoothQuant, or QuantizationModifier), and optionally saves the compressed result.

@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-06-09
+owner: dipikasikka1@gmail.com
+title: '`fp4` Quantization with NVFP4'
+type: quantization_w4a4_fp4
+description: Learn how to quantize model weights and activations to fp4 (NVFP4) format for memory savings and vLLM inference acceleration on NVIDIA Blackwell GPUs.
+tags:
+  - quantization
+  - nvfp4
+  - fp4
+  - w4a4
+  - vllm
+  - calibration
+  - blackwell
+---
 # `fp4` Quantization with NVFP4
 
 For weight-only FP4 quantization (e.g MXFP4A16, NVFP4A16) see examples [here](https://github.com/vllm-project/llm-compressor/tree/main/examples/quantization_w4a16_fp4).

@@ -1,3 +1,18 @@
+---
+id: index
+lastUpdated: 2026-02-24
+owner: mark.j.kurtz@gmail.com
+title: Getting Started
+type: getting-started
+description: Learn about getting started with LLM Compressor, including entry points to installation, model compression, and vLLM deployment guides.
+tags:
+  - getting-started
+  - installation
+  - quantization
+  - vllm
+  - deployment
+  - optimization
+---
 # Getting Started
 
 This section will guide you through the process of installing the library, compressing your first model, and deploying it with vLLM for faster, more efficient inference.

@@ -1,3 +1,16 @@
+---
+id: code-of-conduct
+lastUpdated: 2025-07-18
+owner: mark.j.kurtz@gmail.com
+title: LLM Compressor Code of Conduct
+description: Learn about the community behavior standards, harassment reporting process, and enforcement policy for the LLM Compressor project.
+tags:
+  - code-of-conduct
+  - community
+  - contributing
+  - governance
+  - harassment
+---
 # LLM Compressor Code of Conduct
 
 ## Our Pledge

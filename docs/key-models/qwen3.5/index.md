@@ -1,3 +1,20 @@
+---
+id: index
+lastUpdated: 2026-05-25
+owner: dipikasikka1@gmail.com
+title: Qwen3.5
+type: qwen3.5
+description: Learn how to quantize Qwen3.5 family models (dense vision-language or sparse MoE variants) with LLM Compressor, or locate pre-quantized Qwen3.5 checkpoints in FP8, W4A16, W8A8, or NVFP4 formats.
+tags:
+  - qwen3.5
+  - quantization
+  - vision-language
+  - moe
+  - nvfp4
+  - fp8
+  - w4a16
+  - w8a8
+---
 # Qwen3.5
 
 Quantization examples for the Qwen3.5 family of models, including dense vision-language and sparse MoE variants.

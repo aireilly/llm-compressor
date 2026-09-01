@@ -1,3 +1,17 @@
+---
+id: model-free-ptq
+lastUpdated: 2026-08-04
+owner: dipikasikka1@gmail.com
+title: model_free_ptq
+type: entrypoints
+tags:
+  - quantization
+  - ptq
+  - data-free
+  - safetensors
+  - fp8
+  - entrypoint
+---
 # model_free_ptq
 
 `model_free_ptq` is a PTQ entrypoint for **data-free quantization schemes** that operates directly on safetensors checkpoint files without requiring a Hugging Face model definition or loading the model through `transformers`.

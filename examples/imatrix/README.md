@@ -1,3 +1,19 @@
+---
+id: readme
+lastUpdated: 2026-07-28
+owner: turpingilles15@gmail.com
+title: iMatrix Importance-Weighted Quantization
+type: imatrix
+description: Learn how to configure the imatrix_mse observer for importance-weighted weight quantization, running W4A16 with per-channel E[x²] activation weighting, or composing iMatrix with GPTQ or RTN.
+tags:
+  - quantization
+  - imatrix
+  - observer
+  - w4a16
+  - gptq
+  - rtn
+  - calibration
+---
 # iMatrix Importance-Weighted Quantization
 
 `imatrix_mse` is an observer that uses per-channel activation importance (E[x²]) to weight quantization error during range selection. Channels that carry more signal get more careful range optimization.

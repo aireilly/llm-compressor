@@ -1,3 +1,17 @@
+---
+id: fp8-example
+lastUpdated: 2026-06-09
+owner: cajeon@redhat.com
+type: llama4
+description: Learn how to quantize Meta Llama 4 (e.g. Llama-4-Scout-17B) to FP8 block format with llmcompressor, including ignoring vision and attention modules and saving in compressed-tensors format.
+tags:
+  - llama4
+  - fp8
+  - quantization
+  - llmcompressor
+  - compressed-tensors
+  - moe
+---
 ## Llama4 FP8 Example
 
 ### Code Walkthrough

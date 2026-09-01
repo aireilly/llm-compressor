@@ -2,7 +2,16 @@
 name: Doc edit
 about: Propose changes to project documentation
 labels: documentation
-
+id: doc-edit
+lastUpdated: 2021-01-21
+owner: 74554921+jeanniefinks@users.noreply.github.com
+type: ISSUE_TEMPLATE
+description: Learn how to propose a documentation change using the required issue-template structure covering source location, current content, and proposed edits.
+tags:
+  - documentation
+  - issue-template
+  - contributing
+  - docs
 ---
 
 **What is the URL, file, or UI containing proposed doc change**

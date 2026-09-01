@@ -1,3 +1,20 @@
+---
+id: readme
+lastUpdated: 2025-09-23
+owner: dipikasikka1@gmail.com
+title: Non-uniform Quantization
+type: quantization_non_uniform
+description: Learn how to configure non-uniform quantization that mixes precisions, strategies, or multiple modifiers across layers, such as keeping down_proj at higher precision.
+tags:
+  - quantization
+  - non-uniform
+  - mixed-precision
+  - fp8
+  - nvfp4
+  - int4
+  - int8
+  - config-groups
+---
 # Non-uniform Quantization
 
 In certain cases, it may be useful to combine quantization schemes of different precisions and/or strategies to achieve better recovery. For example, in some decoder-only models, the `down_proj` layer has shown greater sensitivity, and performance can be improved by quantizing this layer to int8 or fp8 instead of int4 or fp4. The examples in this folder illustrate several cases of non-uniform quantization.

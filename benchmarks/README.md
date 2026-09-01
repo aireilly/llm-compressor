@@ -1,3 +1,17 @@
+---
+id: readme
+lastUpdated: 2026-08-18
+owner: 141370165+YingqiDuan@users.noreply.github.com
+title: Benchmarks
+type: benchmarks
+description: Learn how to investigate or report performance benchmarks for trace_subgraphs subgraph tracing, including workload setup and baseline-versus-optimized runtime results.
+tags:
+  - benchmarks
+  - performance
+  - subgraph-tracing
+  - trace-subgraphs
+  - profiling
+---
 # Benchmarks
 
 ## Subgraph tracing

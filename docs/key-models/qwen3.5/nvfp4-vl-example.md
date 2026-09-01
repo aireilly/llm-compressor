@@ -1,3 +1,17 @@
+---
+id: nvfp4-vl-example
+lastUpdated: 2026-07-30
+owner: dipikasikka1@gmail.com
+type: qwen3.5
+description: Learn how to quantize the Qwen3.5 vision-language model to NVFP4A16 using data-free PTQ with llmcompressor.
+tags:
+  - qwen3.5
+  - nvfp4
+  - vision-language
+  - quantization
+  - ptq
+  - data-free
+---
 ## Qwen3.5 NVFP4A16 Vision-Language Example
 
 This example quantizes the Qwen3.5-27B vision-language model to NVFP4A16 (weights quantized to FP4 with per-group-16 granularity, activations in FP16) using data-free PTQ.
